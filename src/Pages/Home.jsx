@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from "../Components/Page/ProjectCard";
 import projectList from "../Store/data";
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
       <div className="h3 text-success">Project List</div>
       <div className="row">
         {projectList.map((project, index) => (
-          <div>{project.title}</div>
+          <ProjectCard key={index} project={project} />
         ))}
       </div>
     </div>

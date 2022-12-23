@@ -22,7 +22,7 @@ const projectList = [
     title: "Title 3",
     redirectUrl: "https://www.google.com/",
     description: "Description 3",
-    gitHubUrl: "https://github.com/",
+
     youtubeUrl: "https://youtube.com/",
     topicsCovered: ["topic 3", "topic 33"],
   },
@@ -32,7 +32,7 @@ const projectList = [
     redirectUrl: "https://www.google.com/",
     description: "Description 4",
     gitHubUrl: "https://github.com/",
-    youtubeUrl: "https://youtube.com/",
+
     topicsCovered: ["topic 4", "topic 44", "topic 444"],
   },
 ];
