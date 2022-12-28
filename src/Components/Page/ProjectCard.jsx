@@ -13,7 +13,6 @@ function ProjectCard({ project }) {
             <img
               src={project.imageUrl}
               style={{
-                maxHeight: "200px",
                 width: "100%",
                 objectFit: "cover",
               }}
